@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رزرو وقت | سالن زیبایی نیلا</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reserve.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrap header-row">
+      <a href="index.html" class="logo"><strong>نیلا</strong><small>سالن زیبایی بانوان</small></a>
+      <nav class="menu">
+        <a href="arayesh.html">خانه</a>
+        <a href="service.html">خدمات</a>
+        <a href="portofil.html">نمونه کارها</a>
+        <a href="aboutus.html">درباره ما</a>
+        <a href="callus.html">تماس با ما</a>
+      </nav>
+      <a href="arayesh.html" class="back">بازگشت</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="title">
+      <h1>رزرو وقت</h1>
+      <p>سه قدم ساده تا نوبت شما</p>
+    </div>
+
+    <div class="layout">
+
+      <form class="card" action="#" method="post">
+
+        
+        <fieldset class="reveal">
+          <legend><span class="num">1</span> خدمت مورد نظر</legend>
+          <div class="grid services">
+            <label class="option"><input type="radio" name="service" value="hair" required><span class="box">خدمات مو</span></label>
+            <label class="option"><input type="radio" name="service" value="skin"><span class="box">خدمات پوست</span></label>
+            <label class="option"><input type="radio" name="service" value="nail"><span class="box">خدمات ناخن</span></label>
+            <label class="option"><input type="radio" name="service" value="makeup"><span class="box">میکاپ</span></label>
+            <label class="option"><input type="radio" name="service" value="extension"><span class="box">اکستنشن مو</span></label>
+            <label class="option"><input type="radio" name="service" value="blowdry"><span class="box">براشینگ</span></label>
+          </div>
+        </fieldset>
+
+        
+        <fieldset class="reveal">
+          <legend><span class="num">2</span> تاریخ و ساعت</legend>
+
+          <label class="label" for="date">تاریخ</label>
+          <input class="input" type="date" id="date" name="date" required>
+
+          <p class="label">ساعت</p>
+          <div class="grid times">
+            <label class="option"><input type="radio" name="time" value="09:00" required><span class="box">09:00</span></label>
+            <label class="option"><input type="radio" name="time" value="10:00"><span class="box">10:00</span></label>
+            <label class="option"><input type="radio" name="time" value="11:00"><span class="box">11:00</span></label>
+            <label class="option"><input type="radio" name="time" value="12:00"><span class="box">12:00</span></label>
+            <label class="option"><input type="radio" name="time" value="14:00"><span class="box">14:00</span></label>
+            <label class="option"><input type="radio" name="time" value="15:00"><span class="box">15:00</span></label>
+            <label class="option"><input type="radio" name="time" value="16:00"><span class="box">16:00</span></label>
+            <label class="option"><input type="radio" name="time" value="17:00"><span class="box">17:00</span></label>
+          </div>
+        </fieldset>
+
+      
+        <fieldset class="reveal">
+          <legend><span class="num">3</span> اطلاعات شما</legend>
+
+          <div class="grid info">
+            <div>
+              <label class="label" for="name">نام و نام خانوادگی</label>
+              <input class="input" type="text" id="name" name="name" placeholder="مثلاً مریم احمدی" required>
+            </div>
+            <div>
+              <label class="label" for="phone">شماره تماس</label>
+              <input class="input" type="tel" id="phone" name="phone" placeholder="09123456789" dir="ltr" required>
+            </div>
+          </div>
+
+          <label class="label" for="note">توضیحات (اختیاری)</label>
+          <textarea class="input" id="note" name="note" rows="3" placeholder="اگر درخواست خاصی دارید بنویسید"></textarea>
+        </fieldset>
+
+        <button type="submit" class="button">ثبت رزرو</button>
+      </form>
+
+      <aside class="side">
+        <div class="card">
+          <h2>قبل از رزرو</h2>
+          <ul>
+            <li>رزرو شما پس از تماس تیم ما تأیید می‌شود.</li>
+            <li>تغییر یا لغو نوبت تا ۲۴ ساعت قبل ممکن است.</li>
+            <li>لطفاً ۱۰ دقیقه زودتر بیایید.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>ساعات کاری</h2>
+          <p>شنبه تا پنجشنبه، ۹ صبح تا ۸ شب</p>
+          <p class="phone"><a href="tel:+982100000000" dir="ltr">021-0000 0000</a></p>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© ۲۰۲۵ سالن زیبایی نیلا. تمامی حقوق محفوظ است.</p>
+  </footer>
+
+</body>
+</html>
